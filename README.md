@@ -1,2 +1,2 @@
 # Marka-Lengoaiak
-# Marka-Lengoaiak
+Marka-lengoaietako ariketak
