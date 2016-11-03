@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ariketa13</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<img alt="" src="https://lh4.googleusercontent.com/W-sImmVzIonZ6IDcZKkGfaHJqWF3SBWrcI2eMkNMB77LHK64lMwqIZGyTmLJUbkd4HMo1IW87c6bkNMnz8HrkXB5lPIgSwcFKULUiA5Nzt2xtqLkw8HEFWGyIj_pso-7hqO1GcZrkJ199D0drQ" usemap="#mapa">
+
+<map name="mapa">
+    <area alt="triangelua" title="triangelua" href="triangelua.html" shape="poly" coords="48,1,1,82,96,82">
+    <area alt="zirkulua" title="zirkulua" href="zirkulua.html" coords="150,42,40" shape="circle">
+    <area alt="aspa" title="aspa" href="aspa.html" coords="288,71,279,81,249,50,218,81,211,75,240,41,209,13,217,2,249,35,281,4,288,10,259,42,277,61,285,69,285,67" shape="poly">
+    <area alt="laukia" title="laukia" href="laukia.html" coords="312,3,388,81" shape="rect">
+</map></body>
+</html>

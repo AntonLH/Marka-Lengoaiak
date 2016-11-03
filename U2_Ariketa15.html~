@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google bilatzailea</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<h1>Bilatzailea</h1>
+<a href="https://www.google.es/search">
+	<img width="200px" height="100px" src="https://i.kinja-img.com/gawker-media/image/upload/s--pEKSmwzm--/c_scale,fl_progressive,q_80,w_800/1414228815325188681.jpg" alt="Google">
+</a>
+<form action="http://www.google.es/search" method="get">
+	   <input type="text" name="q" id="izena" size="50">
+	   <input type="submit" value="Bidali">
+	   <input type="reset" value="Garbitu"></form>
+</body>
+</html>
