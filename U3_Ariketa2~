@@ -15,7 +15,7 @@ h2 { color: blue; }
 a { color: red; }
 a em { color: blue; }
 caption { color: blue; }
-th{border:solid black}
+table, tr, th, td {border:1px solid #000; border-collapse:collapse; padding:5px;}
 td { color: green; }
 td strong { color: orange; }
 th { color: red; }

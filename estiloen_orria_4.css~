@@ -13,7 +13,7 @@ img { border: none; }
 }
 
 #goiburua, #menua, #albokoa, #edukia, #edukia #printzipala, #edukia #bigarrenMailakoa, #oina {
-  border: 2px solid #777;
+  border: none;
 }
 
 #goiburua { clear: both; }
@@ -37,31 +37,14 @@ img { border: none; }
 /*-- Orri oina ---------------------------------------------------*/
 #oina .estekak   { float: left; }
 #oina .copyright { float: right; }
-
 #goiburua{padding: 1em;}
-#menua{margin-bottom: 0.5em; padding: 0.5em;}
-#berriak, #iragarkiak, #edukia #printzipala, #edukia #bigarrenMailakoa{padding: 0.5em;}
+
+
+#menua{margin-bottom: 0.5em; padding: 0.5em;border-bottom: 1px solid #004C99;}
+#berriak, #iragarkiak,#edukia #printzipala, #edukia #bigarrenMailako{padding: 0.5em;}
 #oina {margin-top: 1em;}
-#iragarkiak {margin-top: 1em;}
+#iragarkiak {margin-top: 1em;border:1px solid #CC6600;}
 img{margin: 0.5em;}
 #edukia #printzipala .artikulua{margin: 1em}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#berriak{border:1px solid #C5C5C5;}
+#edukia #bigarrenMailakoa{border-left: 1px solid #CC6600; border-right: 1px solid #CC6600;}
