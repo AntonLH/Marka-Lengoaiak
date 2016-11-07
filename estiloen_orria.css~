@@ -38,13 +38,27 @@ img { border: none; }
 #oina .estekak   { float: left; }
 #oina .copyright { float: right; }
 
+
 #goiburua{padding: 1em;}
 #menua{margin-bottom: 0.5em; padding: 0.5em;}
-#berriak, #iragarkiak, #edukia #printzipala, #edukia #bigarrenMailakoa{padding: 0.5em;}
-#oina {margin-top: 1em;}
-#iragarkiak {margin-top: 1em;}
-img{margin: 0.5em;}
+#albokoa #berriak,#albokoa #iragarkiak,#albokoa,#edukia, #edukia #printzipala, #edukia #bigarrenMailakoa, #oina{padding: 0.5em;}
+#oina {margin-top: 1em;padding:0.5em 0;}
+#albokoa #iragarkiak {margin-top: 1em;}
+#edukia #printzipala .artikulua img{margin: 0.5em;}
 #edukia #printzipala .artikulua{margin: 1em}
+
+#albokoa {padding: 0;}
+#edukia {width: 77%; padding: 0;}
+ 
+#edukia #printzipala {width: 73%;}
+
+
+
+
+
+
+
+
 
 
 

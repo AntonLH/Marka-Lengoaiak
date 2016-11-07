@@ -8,7 +8,7 @@ img { border: none; }
 #edukitzailea {
   width: 90%;
   max-width: 900px;
-  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -37,19 +37,21 @@ img { border: none; }
 /*-- Orri oina ---------------------------------------------------*/
 #oina .estekak   { float: left; }
 #oina .copyright { float: right; }
+
+
 #goiburua{padding: 1em;}
-
-
 #menua{margin-bottom: 0.5em; padding: 0.5em;border-bottom: 1px solid #004C99;}
-#berriak, #iragarkiak,#edukia #printzipala, #edukia #bigarrenMailako{padding: 0.5em;}
-#oina {margin-top: 1em;}
-#iragarkiak {margin-top: 1em;border:1px solid #CC6600;}
-img{margin: 0.5em;}
-#edukia #printzipala .artikulua{margin: 1em}
-#berriak{border:1px solid #C5C5C5;}
+#edukia #printzipala .artikulua{margin-bottom: 1em}
 #edukia #bigarrenMailakoa{border-left: 1px solid #CC6600; border-right: 1px solid #CC6600;}
-
-
+#goiburua, #menua, #albokoa #berriak,#albokoa #iragarkiak,#albokoa,#edukia, #edukia #printzipala, #edukia #bigarrenMailakoa, #oina{padding: 0.5em;border: none;}
+#oina {  padding: .5em 0;margin-top: 1em; border-top: 1px solid #C5C5C5; border-bottom: 1px solid #C5C5C5;}
+#edukia #printzipala .artikulua img{margin: 0.5em;}
+#albokoa {padding: 0;}
+#edukia {width: 77%; padding: 0;}
+#edukia #printzipala {width: 73%;}
+#edukia #bigarrenMailakoa {border: 1px solid #C60;}
+#albokoa #iragarkiak {margin-top: 1em;  border: 1px dashed #C60;}
+#albokoa #berriak{border:1px solid #C5C5C5;}
 
 
 
