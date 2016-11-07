@@ -1,0 +1,62 @@
+/*-- Oinarrizkoak ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.gardena { clear: both; }
+img { border: none; }
+
+/*-- Diseinua ----------------------------------------------------------*/
+#edukitzailea {
+  width: 90%;
+  max-width: 900px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#goiburua, #menua, #albokoa, #edukia, #edukia #printzipala, #edukia #bigarrenMailakoa, #oina {
+  border: none;
+}
+
+#goiburua { clear: both; }
+#menua { clear: both; }
+#albokoa { float: left; width: 20%; }
+#edukia { float: right; width: 78%; }
+#edukia #printzipala { float: left; width: 78%; }
+#edukia #bigarrenMailakoa { float: right; width: 20%; }
+#oina { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#goiburua #logoa { float: left; }
+#goiburua #bilatzailea { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menua ul#menu_printzipala li { display: inline; float: left; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#edukia #printzipala .artikulua img { width: 100px; float: left; }
+
+/*-- Orri oina ---------------------------------------------------*/
+#oina .estekak   { float: left; }
+#oina .copyright { float: right; }
+
+
+#goiburua{padding: 1em;}
+#menua{margin-bottom: 0.5em; padding: 0.5em;border-bottom: 1px solid #004C99;}
+#edukia #printzipala .artikulua{margin-bottom: 1em}
+#edukia #bigarrenMailakoa{border-left: 1px solid #CC6600; border-right: 1px solid #CC6600;}
+#goiburua, #menua, #albokoa #berriak,#albokoa #iragarkiak,#albokoa,#edukia, #edukia #printzipala, #edukia #bigarrenMailakoa, #oina{padding: 0.5em;border: none;}
+#oina {  padding: .5em 0;margin-top: 1em; border-top: 1px solid #C5C5C5; border-bottom: 1px solid #C5C5C5; background-color:#F8F8F8;}
+#edukia #printzipala .artikulua img{margin: 0.5em;}
+#albokoa {padding: 0;}
+#edukia {width: 77%; padding: 0;}
+#edukia #printzipala {width: 73%;}
+#edukia #bigarrenMailakoa {border: 1px solid #C60;}
+#albokoa #berriak{border:1px solid #C5C5C5;background-color:#F8F8F8}
+#albokoa #iragarkiak {margin-top: 1em;  border: 1px dashed #C60;background-color:#FFF6CD}
+#goiburua h1{background: url(../Deskargak/logo_irudia.gif) no-repeat -5px 10px;}
+#edukia #bigarrenMailakoa h2 {
+    background: #DB905C;
+  padding: .2em;
+}
+
+
+
