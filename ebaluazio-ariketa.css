@@ -1,23 +1,32 @@
 
 
-* { margin: 0; padding: 0;font-family: arial; }
-/*contenedor*/
-#edukitzailea { margin: 0 auto; width: 100%;position: relative; height: 1500px; }
-#goiburua { height: 90px; background-color: #eeff45; width:100%; padding-top: 10px; padding-left:10px }
-/*menu*/
-#menua { width: 120px ; margin: 10px; height: 300px; background-color: #ffffff;}
-/*principal*/
-#printzipala { position: absolute; top: 100px; left: 160px; width: 1200px; height: 900px; 
+* { margin: 0; padding: 0; }
+
+#edukitzailea { margin: 0 auto; width:100%; height: 2100px;}
+#goiburua { height: 100px; background-color: #eeff45; width:100%; }
+#titulua {padding-top: 10px; padding-left:10px; }
+#azpititulua {position: absolute; padding-left:10px;float: left; top: 70px;}
+#menua { width: 10% ; margin: 10px; height: 300px; background-color: #ffffff;}
+
+#printzipala { position: absolute; top: 110px; left: 160px; width: 90%; height:2050px; 
              background-color: #ffffff; }
-/*contenido*/
-#edukia { position: absolute; top: 0px; left: 0px; width: 900px; height: 900px; 
+
+#edukia { position: absolute; top: 0px; left: 0px; width: 80%; height: 2150px; 
              background-color: #ffffff; margin: 10px;  padding: 1%; }
-/*lateral*/
-#albokoa { position: absolute; top: 0px; right: 0px; width: 130px; height: 460px; 
+
+#albokoa { position: absolute; top: 0px; right: 0px; width: 13%; height: 100%; 
            background-color:blue; ; margin: 10px 10px 10px 0px; padding: 5px ;}
-/*pie*/
-#oina { position: absolute; width: 100%; height: 100px; 
-       background-color:#ccffff ; clear: both; padding: 0.5em 0; }
+
+#oina { position: absolute; width: 100%; height: 50px; 
+       background-color:white; clear: both; padding: 0.5em 0; top: 2170px;}
+#hasiera {position: absolute; width: 100%; height: 250px; }
+
+#biografia {position: absolute; width: 100%; height: 340px; top: 250px;}
+
+#ikasketak {position: absolute; width: 100%; height: 520px; top: 590px;}
+#eztabaida {position: absolute; width: 100%; height: 240px; top: 1110px;}
+#ikuskapenak {position: absolute; width: 100%; height: 405px; top: 1350px;}
+#ikuskapenak2 {position: absolute; width: 100%; height: 290px; top: 1755px;}
 
 
 
@@ -33,50 +42,82 @@ border:2px solid black;}
 #menua ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1%;
     width: 150px;
-    background-color: white;
+
  }
 #menua li a {
     display: block;
-    color: #000;
+    color: blue;
     padding: 8px 16px;
     text-decoration: none;
-}
+    background-color: grey;}
 
-/* Change the link color on hover */
+
 #menua li a:hover {
     background-color: #555;
     color: white;
 }
-h2{color: white;}
+h4{color: white;}
 h3{background-color: blue; color: yellow;}
 
-
-
-#oina ul {
+#albokoa ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 1%;
+    width: 150px;
+
+ }
+#albokoa li a {
+    display: block;
+    color: blue;
+    padding: 7px 16px;
+    text-decoration: none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    }
+
+
+#albokoa li a:hover {
+    background-color: blue;
+    color: white;
 }
 
 #oina li {
+    text-align: center;
+    border-right: 1px solid #555;
     float: left;
 }
+
+#oina li:last-child {
+    border-bottom: none;
+}
+
+#oina li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#oina li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#oina ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #FFFFFF;
+}
+
 
 #oina li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 32px;
     text-decoration: none;
-}
 
-.active {
-    background-color: #4CAF50;
 }
