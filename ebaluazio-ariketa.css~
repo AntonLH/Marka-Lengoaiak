@@ -17,16 +17,15 @@
 #albokoa { position: absolute; top: 0px; right: 0px; width: 13%; height: 100%; 
            background-color:blue; ; margin: 10px 10px 10px 0px; padding: 5px ;}
 
-#oina { position: absolute; width: 100%; height: 50px; 
-       background-color:white; clear: both; padding: 0.5em 0; top: 2170px;}
-#hasiera {position: absolute; width: 100%; height: 250px; }
+#oina { position: absolute; width: 100%; height: 100px; 
+       background-color:white; clear: both; padding: 0; top: 2170px;}
+#hasiera {width: 100%; height: 250px; }
 
-#biografia {position: absolute; width: 100%; height: 340px; top: 250px;}
-
-#ikasketak {position: absolute; width: 100%; height: 520px; top: 590px;}
-#eztabaida {position: absolute; width: 100%; height: 240px; top: 1110px;}
-#ikuskapenak {position: absolute; width: 100%; height: 405px; top: 1350px;}
-#ikuskapenak2 {position: absolute; width: 100%; height: 290px; top: 1755px;}
+#biografia {width: 100%; height: 340px; top: 250px;}
+#ikasketak {width: 100%; height: 520px; top: 590px;}
+#eztabaida {width: 100%; height: 240px; top: 1110px;}
+#ikuskapenak {width: 100%; height: 405px; top: 1350px;}
+#ikuskapenak2 {width: 100%; height: 290px; top: 1755px;}
 
 
 
@@ -51,7 +50,8 @@ border:2px solid black;}
     color: blue;
     padding: 8px 16px;
     text-decoration: none;
-    background-color: grey;}
+    background-color: grey;
+}
 
 
 #menua li a:hover {
@@ -82,9 +82,7 @@ h3{background-color: blue; color: yellow;}
     background-color: blue;
     color: white;
 }
-#albokoa li:last-child {
-    border-bottom: 2px solid blue;
-}
+
 #oina li {
     text-align: center;
     border-right: 1px solid #555;
