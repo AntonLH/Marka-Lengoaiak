@@ -1,22 +1,22 @@
 * { margin: 0; padding: 0; }
 
-#edukitzailea { margin: 0 auto; width:100%; height: 2100px;}
+#edukitzailea { margin: 0 auto; width:100%;}
 #goiburua { height: 100px; background-color: #eeff45; width:100%; }
 #titulua {padding-top: 10px; padding-left:10px; }
-#azpititulua {position: absolute; padding-left:10px;float: left; top: 70px;}
-#menua { width: 10% ; margin: 10px; height: 300px; background-color: #ffffff;}
+#azpititulua {padding-left:10px;}
+#menua { width: 9% ; margin: 10px; height: 300px; background-color: #ffffff;}
 
-#printzipala { position: absolute; top: 110px; left: 160px; width: 90%; height:2050px; 
-             background-color: #ffffff; }
+#printzipala {width: 90%; height:2050px; 
+             background-color: #ffffff; float: left;}
 
-#edukia { position: absolute; top: 0px; left: 0px; width: 80%; height: 2px; 
+#edukia {width: 80%; height: 2px; 
              background-color: #ffffff; margin: 10px;  padding: 1%; }
 
-#albokoa { position: absolute; top: 0px; left: 1020px; width: 13%; height: 100%; 
-           background-color:blue;margin: 10px 10px 10px 0px; padding: 5px ;}
+#albokoa {width: 13%; height: 100%; 
+           background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: right;}
 
-#oina { position: absolute; width: 100%; height: 100px; 
-       background-color:white; clear: both; padding: 0; top: 2200px;}
+#oina {  width: 100%; height: 100px; 
+       background-color:white; clear: both; padding: 0;}
 #hasiera {width: 100%; height: 250px; }
 
 #biografia, #ikasketak, #eztabaida, #ikuskapenak, #ikuskapenak2 {margin-top: 10px;}

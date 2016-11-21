@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Tim Berners-Lee</title>
-<link rel="stylesheet" type="text/css" href="ebaluazio-ariketa.css" title="style" />
+<link rel="stylesheet" type="text/css" href="ebaluazio-ariketa2.css" title="style" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 </head>
 <body>
@@ -110,7 +110,7 @@
 							</select>
 							<br>
 							<label for="testua"><strong>T</strong>estua:</label> <br>
-							<textarea autocomplete="off" cols="50" id="testua" name="testua" rows="4">Idatzi hemen zure testua</textarea>
+							<textarea autocomplete="off" cols="85" id="testua" name="testua" rows="5">Idatzi hemen zure testua</textarea>
 							<br>
 							<hr>
 							<div id="bidali" style="float: right">
