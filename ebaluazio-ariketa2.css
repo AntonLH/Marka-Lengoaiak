@@ -4,18 +4,18 @@
 #goiburua { height: 100px; background-color: #eeff45; width:100%; }
 #titulua {padding-top: 10px; padding-left:10px; }
 #azpititulua {padding-left:10px;}
-#menua { width: 9% ; margin: 10px; height: 300px; background-color: #ffffff;}
+#menua { float:left;width: 9% ; margin: 10px; height: 300px; background-color: #ffffff;}
 
-#printzipala {width: 90%; height:2050px; 
+#printzipala {margin-left:40px; width: 85%; height:2050px; 
              background-color: #ffffff; float: left;}
 
-#edukia {width: 80%; height: 2px; 
+#edukia {float:left;width: 80%; height: 2050px; 
              background-color: #ffffff; margin: 10px;  padding: 1%; }
 
-#albokoa {width: 13%; height: 100%; 
-           background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: right;}
+#albokoa {width: 14%; height: 100%; 
+           background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: left;}
 
-#oina {  width: 100%; height: 100px; 
+#oina { margin-top:10%; width: 100%; height: 100px; 
        background-color:white; clear: both; padding: 0;}
 #hasiera {width: 100%; height: 250px; }
 
