@@ -2,7 +2,7 @@
 
 #edukitzailea { margin: 0 auto; width:100%;}
 #goiburua { height: 100px; background-color: #eeff45; width:100%; }
-#titulua {padding-top: 10px; padding-left:10px; }
+#titulua {padding-top: 10px; padding-left:10px; width: 100%;}
 #azpititulua {padding-left:10px;}
 #menua { float:left; width: 9% ; margin: 10px; height: 300px; background-color: #ffffff;}
 
@@ -10,7 +10,7 @@
 
 #edukia {float:left;width: 80%;background-color: #ffffff; margin: 10px;  padding: 1%; }
 
-#albokoa {width: 14%; height: 100%; background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: left;}
+#albokoa {clear: right; width: 14%; margin-bottom:0; background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: right;}
 
 #oina { margin-top:10%; width: 100%; background-color:white; clear: both; padding: 0;}
 
@@ -23,7 +23,10 @@
 p { margin-top: 5px;}
 h3 {margin-bottom: 10px;}
 #web{
-	margin: 5px;
+padding: 5px;
+font-style: italic;
+margin-top: 5px;
+margin-bottom: 5px;
 background-color: cyan;
 border:2px solid black;}
 #goiburua h1{color: yellow;}

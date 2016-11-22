@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Tim Berners-Lee</title>
-<link rel="stylesheet" type="text/css" href="ebaluazio-ariketa2.css" title="style" />
+<link rel="stylesheet" type="text/css" href="ebaluazio-ariketa.css" title="style" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 </head>
 <body>
@@ -23,7 +23,7 @@
       <div id="printzipala">
          <div id="edukia">
          <div id="hasiera">
-	         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tim_Berners-Lee.jpg/250px-Tim_Berners-Lee.jpg" alt="img" height="200">
+	         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tim_Berners-Lee.jpg/250px-Tim_Berners-Lee.jpg" alt="img" height="150">
 	         <p>Sir Timothy “Tim” John Berners-Lee, OM, KBE (TimBL edo TBL) 1955ko ekainaren 8an jaio zen Londresen, Erresuma Batua, 1976. urtean Oxford Unibertsitateko Queen’s College-en Fisikan lizentziatu zen. Web-aren aita dela kontsideratzen da.</p><br>
 				<p>Tim Berners-Leek, bere ikerketen informazioa modu eragingarriago batean banatzeko beharren artean, webaren zati bat diren ideia batzuk garatu zituen. Tim eta bere taldekideek ingelesez deitzen diren HTML lengoaia (<b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage) edo hipertestuko etiketen lengoaia; HTTP protokoloa (<b>H</b>yper<b>T</b>ext <b>T</b>ransfer <b>L</b>anguage); eta URL web-ean objektuen aurkitze sistema (Universal Resource Locator) sortu zituen.</p><br>
 				<p>Berners-Leek aipatutako ideia askok Ted Nelsonek eta Vannevar Bushek proposatutako Xanadu proiektuan aurki ditzakegu.</p>
