@@ -1,19 +1,23 @@
 * { margin: 0; padding: 0; }
 
-#edukitzailea { margin: 0 auto; width:100%;}
+#edukitzailea { margin: 0 auto; width:100%; height: 2100px;}
 #goiburua { height: 100px; background-color: #eeff45; width:100%; }
-#titulua {padding-top: 10px; padding-left:10px; width: 100%;}
-#azpititulua {padding-left:10px;}
-#menua { float:left; width: 9% ; margin: 10px; height: 300px; background-color: #ffffff;}
+#titulua {padding-top: 10px; padding-left:10px; }
+#azpititulua {position: absolute; padding-left:10px;float: left; top: 70px;}
+#menua { width: 10% ; margin: 10px; height: 300px; background-color: #ffffff;}
 
-#printzipala {margin-left:40px; width: 85%; background-color: #ffffff; float: left;}
+#printzipala { position: absolute; top: 110px; left: 160px; width: 90%; height:2050px; 
+             background-color: #ffffff; }
 
-#edukia {float:left;width: 80%;background-color: #ffffff; margin: 10px;  padding: 1%; }
+#edukia { position: absolute; top: 0px; left: 0px; width: 80%; height: 2px; 
+             background-color: #ffffff; margin: 10px;  padding: 1%; }
 
-#albokoa { width: 14%; margin-bottom:0; background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: right;}
+#albokoa { position: absolute; top: 0px; left: 1020px; width: 13%; height: 100%; 
+           background-color:blue;margin: 10px 10px 10px 0px; padding: 5px ;}
 
-#oina { margin-top:10%; width: 100%; background-color:white; clear: both; padding: 0;}
-
+#oina { position: absolute; width: 100%; height: 100px; 
+       background-color:white; clear: both; padding: 0; top: 2200px;}
+#hasiera {width: 100%; height: 250px; }
 
 #biografia, #ikasketak, #eztabaida, #ikuskapenak, #ikuskapenak2 {margin-top: 10px;}
 
@@ -21,12 +25,8 @@
 #goiburua #titulua { float: left; }
 
 p { margin-top: 5px;}
-h3 {margin-bottom: 10px;}
+
 #web{
-padding: 5px;
-font-style: italic;
-margin-top: 5px;
-margin-bottom: 5px;
 background-color: cyan;
 border:2px solid black;}
 #goiburua h1{color: yellow;}
@@ -78,8 +78,7 @@ h3{background-color: blue; color: yellow;}
 }
 
 #oina li {
-    display: inline-block; 
-     text-align: center;
+    text-align: center;
     border-right: 1px solid #555;
     float: left;
 }
@@ -99,7 +98,6 @@ h3{background-color: blue; color: yellow;}
 }
 
 #oina ul {
-
     list-style-type: none;
     overflow: hidden;
     background-color: #333;

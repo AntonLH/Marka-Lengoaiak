@@ -10,7 +10,7 @@
 
 #edukia {float:left;width: 80%;background-color: #ffffff; margin: 10px;  padding: 1%; }
 
-#albokoa {clear: right; width: 14%; margin-bottom:0; background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: right;}
+#albokoa { width: 14%; margin-bottom:0; background-color:blue;margin: 10px 10px 10px 0px; padding: 5px; float: right;}
 
 #oina { margin-top:10%; width: 100%; background-color:white; clear: both; padding: 0;}
 
@@ -78,7 +78,8 @@ h3{background-color: blue; color: yellow;}
 }
 
 #oina li {
-    text-align: center;
+    display: inline-block; 
+     text-align: center;
     border-right: 1px solid #555;
     float: left;
 }
@@ -98,6 +99,7 @@ h3{background-color: blue; color: yellow;}
 }
 
 #oina ul {
+
     list-style-type: none;
     overflow: hidden;
     background-color: #333;

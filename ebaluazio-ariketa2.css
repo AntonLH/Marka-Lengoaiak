@@ -78,7 +78,8 @@ h3{background-color: blue; color: yellow;}
 }
 
 #oina li {
-    text-align: center;
+    display: inline-block; 
+     text-align: center;
     border-right: 1px solid #555;
     float: left;
 }
@@ -98,6 +99,7 @@ h3{background-color: blue; color: yellow;}
 }
 
 #oina ul {
+
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
