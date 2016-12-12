@@ -9,7 +9,7 @@
  var cont2=0;
  var maximoa=0; 
  var minimoa=10;
-  while (cont2<10){
+  while (cont2<=10){
   	if (array[cont2]>maximoa) {
   			maximoa=array[cont2];
   	}
