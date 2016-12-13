@@ -1,0 +1,1 @@
+var balioak = [true, 5, false, "kaixo", "agur", 2];
