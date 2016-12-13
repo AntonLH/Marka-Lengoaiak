@@ -20,7 +20,7 @@ alert(balioak[1]+balioak[5]);
 alert(balioak[1]*balioak[5]);
 alert(balioak[1]/balioak[5]);
 alert(miArray.sort());
-alert(array);
+
 var mayoramenor=array.sort(function(a, b){return a - b}); 
 
 alert(mayoramenor);
@@ -29,3 +29,4 @@ var menoramayor=array.sort(function(a, b){return b - a});
 
 alert(menoramayor);
 
+alert(array);
