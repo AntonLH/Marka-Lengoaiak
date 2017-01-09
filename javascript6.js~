@@ -9,3 +9,4 @@ alert("NANa hau da: "+aux+letrak[ondarra]);
 }
 else {
 	alert("Zenbaki okerra");
+}
