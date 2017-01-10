@@ -6,7 +6,7 @@ function bakoiti_bikoiti(zenb){
 	alert("bakoiti");
 }
 }
-function zenbaki_lehena(zenbaki) {
+function lehena(zenbaki) {
   if (zenbaki===1)  
   {  
     return false;  
