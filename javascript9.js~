@@ -20,5 +20,10 @@ var array=balioa.split(" ");
 alert(array.length);
 alert(array[0]);
 alert(array[array.length-1]);
-
+array.reverse();
+alert(array);
+array.sort();
+alert(array);
+array.reverse();
+alert(array);
 }
