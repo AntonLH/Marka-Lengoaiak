@@ -1,8 +1,14 @@
 function palindromoa(testua) {
 testua=testua.toLowerCase();
+testua.replace(" ","");
+/**var testua2="";
+for (i in testua) {
+	if(testua[i]!=" "){
+		testua2+=testua[i];
+}}
+*/
 var array=testua.split("");
 var array2=testua.split("");
-alert(array.length);
 array=array.reverse();
 var i=0;
 var kontadorea=0;
@@ -20,4 +26,4 @@ else {
 	alert("ez da palindromoa");
 }
 }
-palindromoa("autoreerotua");
+palindromoa("Nik enara neraman amaren aranekin");
