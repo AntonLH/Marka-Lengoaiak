@@ -13,17 +13,18 @@ else {
 funtzioa("aaa");
 
 
-document.getElementById("botoia").addEventListener("click", testua_hartu);
+document.getElementById("botoia").addEventListener("click", funtzioa2);
 function funtzioa2() {
-var balioa = document.getElementById("paragrafoa").value;
-var array=balioa.split(" ");
-alert(array.length);
-alert(array[0]);
-alert(array[array.length-1]);
-array.reverse();
-alert(array);
-array.sort();
-alert(array);
-array.reverse();
-alert(array);
+	var balioa = document.getElementById("paragrafoa").value;
+	alert(balioa);
+	var array=balioa.split(" ");
+	alert(array.length);
+	alert(array[0]);
+	alert(array[array.length-1]);
+	array.reverse();
+	alert(array);
+	array.sort();
+	alert(array);
+	array.reverse();
+	alert(array);
 }

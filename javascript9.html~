@@ -7,6 +7,7 @@
 </head>
  
 <body>
+<button id="botoia">Botoia</button>
 <textarea id="paragrafoa"></textarea>
 	<script src="javascript9.js"></script>
 </body>
