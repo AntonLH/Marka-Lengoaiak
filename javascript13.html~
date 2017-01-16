@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Kalkulagailua</title>
+<link rel="stylesheet" type="text/css" href="kalku.css" />
+</head>
+<body>
+<div class="kalkulagailua"
+<form action="#" name="kalkulagailua" id="kalkulagailua">
+<p id="Pantaila">0</p>
+<p>
+<hr>
+<input type="button" value="M+" />
+<input type="button" value="M-" />
+<button class="luzea">MC</button>
+<button class="luzea">MR</button>
+<hr>
+<hr>
+<input type="radio" value="RAD" checked=""/><label>RAD</label>
+<input type="radio" value="GRAD" /><label>GRAD</label><br>
+<button class="luzea">sin()</button>
+<button class="luzea">cos()</button>
+<button class="luzea">tan()</button>
+<input type="button" name="PI" value="&#928;" />
+<hr>
+</p>
+<p>
+<button class="luzea">log()</button>
+<button class="luzea">ln()</button>
+<input type="button" name ="ERROA"value="&#8730;" />
+<input type="button" value="%" />
+</p>
+<p>
+<input type="button" value="7" />
+<input type="button" value="8" />
+<input type="button" value="9" />
+<input type="button" value="C" />
+<input type="button" value="AC" />
+</p>
+<p>
+<input type="button" value="4" />
+<input type="button" value="5" />
+<input type="button" value="6" />
+<input type="button" value="*" />
+<input type="button" value="/"  />
+
+</p>
+<p>
+<input type="button" value="1" />
+<input type="button" value="2" />
+<input type="button" value="3" />
+<input type="button" value="+" />
+<input type="button" value="-" />
+
+</p>
+<p>
+<input type="button" value="0" />
+<input type="button" value="." />
+<input type="button" value="+/-" />
+<input type="button" value="1/x" />
+<input type="button" value="="/>
+</p>
+</form>
+</div>
+</body>
+</html>
