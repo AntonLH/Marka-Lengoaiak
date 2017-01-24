@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>Hamaikagarren scripta</title>
 </head>
 <body>
-
 <p><strong>R=</strong>
 <input type="text"id="testua"></p>
 <input type="radio" name="botoia" value="Perimetroa" id="peri"><label>Perimetroa</label>
 <input type="radio" name="botoia" value="Azalera" id="azal"><label>Azalera</label><br>
 <button id="emaitza">Emaitza</button> <textarea id="paragrafoa"></textarea>
-	<script src="javascript11.js"></script>
-	</body>
+
+<p>Zenbakia
+<input type="number"id="zenbakia"></p>
+<button id="biderketa">Biderketa taula</button><br>
+<button id="zatiketa">Zatiketa taula</button>
+<p>Taula:</p> <textarea id="paragrafoa2" rows="10" cols="20" ></textarea>
+<script src="javascript11.js"></script>
+</body>
 </html>

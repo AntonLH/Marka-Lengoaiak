@@ -11,21 +11,20 @@ kopurua = document.getElementById("kopurua").value;
 zerrenda = document.getElementById("produktua");
 aukeratutakoAukera = zerrenda.options[zerrenda.selectedIndex];
 izena=aukeratutakoAukera.text;
-if (izena.length<8) tabulatzaileak="\t\t";
- else tabulatzaileak="\t";
+
 salneurria=aukeratutakoAukera.value;
 
-zenbatekoa= (salneurria*kopurua).toFixed(2);
+totala= (salneurria*kopurua).toFixed(2);
 
 erosketak[zenbakia-1][0]=izena;
 erosketak[zenbakia-1][1]=salneurria;
 erosketak[zenbakia-1][2]=kopurua;
-erosketak[zenbakia-1][3]=zenbatekoa;
+erosketak[zenbakia-1][3]=totala;
 
-lerroa=zenbakia+"\t"+izena+tabulatzaileak+kopurua+"\t\t"+salneurria+"\t\t"+zenbatekoa+"\n";
+lerroa=zenbakia+"\t"+izena+"\t\t"+kopurua+"\t\t"+salneurria+"\t\t"+totala+"\n";
 
 if(zenbakia==1){
-idaztekoa="Zbkia"+"\t"+"Produktua"+"\t"+"Kopurua"+"\t\t"+"Salneurria"+"\t"+"Zenbatekoa"+"\n";
+idaztekoa="Zbkia\tProduktua\tKopurua\t\tSalneurria\tZenbatekoa\n";
 document.getElementById("tiketa").value=idaztekoa;
 }
 
@@ -33,7 +32,15 @@ document.getElementById("tiketa").value=document.getElementById("tiketa").value+
 
 zenbakia++;
 document.getElementById("zenbaki").value=zenbakia;
+}
 
+document.getElementById("faktura").addEventListener("click", faktura);
 
+function faktura() {
 
+document.write("<h2>Erosketen faktura</h2>");
+document.write("<table><tr><th>Zbkia</th><th>Produktua</th><th>Salneurria</th><th>Kopurua</th><th>Zenbatekoa</th></tr>");
+document.write("</table>");
+document.write("<table><tr><th>BEZ=%"+BEZ+"</th><th>Guztizkoa</th></tr>");
+document.write("</table>");
 }
