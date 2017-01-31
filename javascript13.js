@@ -107,27 +107,26 @@ function memoria_r() {
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 
       }
-function angelua()
+
+function sin()
 	{
-	if (document.getElementById('rad').checked) return datu1;
-	return (Math.PI/180)*datu1;
-	}
-	function sin()
-	{
+	if (document.getElementById('grad').checked){ x=x*(Math.PI/180);}
          x=Math.sin(x) //resolver raíz cuadrada.
          pantalla.innerHTML=x; //mostrar en pantalla resultado
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 
 	}
-	function cos()
+function cos()
 	{
+	if (document.getElementById('grad').checked){ x=x*(Math.PI/180);}
          x=Math.cos(x) //resolver raíz cuadrada.
          pantalla.innerHTML=x; //mostrar en pantalla resultado
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 
 	}
-	function tan()
+function tan()
 	{
+	if (document.getElementById('grad').checked){ x=x*(Math.PI/180);}
          x=Math.tan(x) //resolver raíz cuadrada.
          pantalla.innerHTML=x; //mostrar en pantalla resultado
          op="no"; //quitar operaciones pendientes.

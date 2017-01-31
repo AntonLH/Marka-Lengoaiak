@@ -27,9 +27,24 @@ window.onload = function() {
 
 <p id="testua"></p>
 <p id="testua2"></p>
-
+<p id="testua3"></p>
+<p id="testua4"></p>
 <script>
-document.getElementById("testua2").innerHTML ="Esteka kopurua: " + document.links[5].href;
+document.getElementById("testua2").innerHTML ="Azken aurreko esteka: " + document.links[5].href;
+document.getElementById("testua").innerHTML ="Esteka kopurua: " + document.links.length;
+var x = document.links;
+var zenbat =0;
+var i;
+
+
+for (i = 0; i < x.length; i++) {
+	if (x[i].href==="http://prueba/") {
+		zenbat++;
+
+	}
+}
+document.getElementById("testua3").innerHTML ="Esteka kopurua: " + zenbat;
+
 </script>
 
 </body>

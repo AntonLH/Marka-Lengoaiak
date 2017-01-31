@@ -12,10 +12,10 @@
 <p id="textoPantalla">0</p>
 
 <p>
-<input type="button" value="M+" />
-<input type="button" value="M-" />
-<input type="button" value="MC" />
-<input type="button" value="MR" />
+<input type="button" value="M+" onclick="memoria_gehitu()"/>
+<input type="button" value="M-" onclick="memoria_kendu()"/>
+<input type="button" value="MC" onclick="memoria_c()"/>
+<input type="button" value="MR" onclick="memoria_r()"/>
 </p>
 <p>
 <input type="radio" value="rad" checked=""/><label>RAD</label>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Hamabost ariketa</title>
+
+</head>
+<body>
+<script type="text/javascript">
+
+var lerroa=0;
+function lerroagehitu() {
+  lerroa++;
+  var taula = document.getElementById('taula');
+  var tr,td,testua;
+     tr = taula.insertRow(lerroa);
+     for (var i=0; i<3; i++) {
+        td = tr.insertCell(i);
+        testua = document.createTextNode(lerroa+","+(i+1)+' Gelaxka');
+        td.appendChild(testua);
+        }
+     }
+ 
+function lerroakendu() {
+lerroa--;
+  var taula = document.getElementById('taula');
+  
+  taula.deleteRow(1);
+
+}
+
+
+</script>
+<table id="taula" border="1">
+<caption>taula dinamikoa</caption>
+<thead>
+<th>Zutabe 1</th>
+<th>Zutabe 2</th>
+<th>Zutabe 3</th>
+</thead>
+<tbody>
+</tbody>
+<br>
+</table>
+<br>
+<button onclick="lerroagehitu()">Txertatu</button>
+<button onclick="lerroakendu()">Ezabatu</button>
+</body>
+</html>
