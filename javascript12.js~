@@ -36,10 +36,29 @@ document.getElementById("zenbaki").value=zenbakia;
 document.getElementById("faktura").addEventListener("click", faktura);
 
 function faktura() {
+var guztizkoa=0;
+var BEZ=document.getElementById("BEZ").value;
+ var leihoa = window.open("", "Faktura", "width=2000,height=1000");
+leihoa.document.write("<h1>Erosketen Faktura</h1>");
 
-document.write("<h2>Erosketen faktura</h2>");
-document.write("<table><tr><th>Zbkia</th><th>Produktua</th><th>Salneurria</th><th>Kopurua</th><th>Zenbatekoa</th></tr>");
-document.write("</table>");
-document.write("<table><tr><th>BEZ=%"+BEZ+"</th><th>Guztizkoa</th></tr>");
-document.write("</table>");
+leihoa.document.write("<table><tr><th>Zbkia</th><th>Produktua</th><th>Salneurria</th><th>Kopurua</th><th>Zenbatekoa</th></tr>");
+ for(var i=0;i<zenbakia-1;i++) {
+ leihoa.document.write("<tr>");
+ 
+ leihoa.document.write("<td>"+parseInt(i+1)+"</td>");
+ for(var j=0;j<4;j++) {
+  leihoa.document.write("<td>");
+        leihoa.document.write(erosketak[i][j]);
+        if(j==3) guztizkoa+=parseInt(erosketak[i][3]);
+        leihoa-document.write("</td>");
+        }
+ leihoa.document.write("</tr>"); 
+ } 
+leihoa.document.write("</table>");
+
+leihoa.document.write("<table border=\"1\"><tr><th>Bez: %"+BEZ+"</th><th>Guztizkoa</th></tr>");
+guztizkoa+=guztizkoa*BEZ/100;
+leihoa.document.write("<tr><th>"+(guztizkoa*BEZ/100).toFixed(2)+"</th><th>"+guztizkoa.toFixed(2)+"</th></tr>");
+leihoa.document.write("</table>");
+ 
 }
