@@ -110,24 +110,24 @@ function memoria_r() {
 
 function sin()
 	{
-	if (document.getElementById('grad').checked){ x=x*(Math.PI/180);}
-         x=Math.sin(x) //resolver raíz cuadrada.
+	if (document.getElementById('grad').checked){ x=x*Math.PI/180;}
+         x=Math.sin(x).toFixed(3) //resolver raíz cuadrada.
          pantalla.innerHTML=x; //mostrar en pantalla resultado
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 
 	}
 function cos()
 	{
-	if (document.getElementById('grad').checked){ x=x*(Math.PI/180);}
-         x=Math.cos(x) //resolver raíz cuadrada.
+	if (document.getElementById('grad').checked){ x=x*Math.PI/180;}
+         x=Math.cos(x).toFixed(3) //resolver raíz cuadrada.
          pantalla.innerHTML=x; //mostrar en pantalla resultado
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 
 	}
 function tan()
 	{
-	if (document.getElementById('grad').checked){ x=x*(Math.PI/180);}
-         x=Math.tan(x) //resolver raíz cuadrada.
+	if (document.getElementById('grad').checked){ x=x*Math.PI/180;}
+         x=Math.tan(x).toFixed(3) //resolver raíz cuadrada.
          pantalla.innerHTML=x; //mostrar en pantalla resultado
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 

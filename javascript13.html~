@@ -18,8 +18,8 @@
 <input type="button" value="MR" onclick="memoria_r()"/>
 </p>
 <p>
-<input type="radio" value="rad" checked=""/><label>RAD</label>
-<input type="radio" value="GRAD" /><label>GRAD</label><br>
+<input type="radio" value="rad" id="grad" checked=""/><label>RAD</label>
+<input type="radio" value="grad" id="grad"/><label>GRAD</label><br>
 <input type="button" class="largo" value="sin" onclick="sin()"/>
 <input type="button" class="largo" value="cos" onclick="cos()"/>
 <input type="button" class="largo" value="tan" onclick="tan()"/>
