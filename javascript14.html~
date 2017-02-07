@@ -16,6 +16,7 @@
 <p id="testua"></p>
 <p id="testua2"></p>
 <p id="testua3"></p>
+<p id="testua4"></p>
 <script>
 document.getElementById("testua2").innerHTML ="Azken aurreko esteka: " + document.links[5].href;
 document.getElementById("testua").innerHTML ="Esteka kopurua: " + document.links.length;
@@ -32,6 +33,10 @@ for (i = 0; i < x.length; i++) {
 }
 document.getElementById("testua3").innerHTML ="Esteka kopurua: " + zenbat;
 
+  var parrafos = document.getElementsByTagName("p");
+  enlaces = parrafos[2].getElementsByTagName("a");
+  info.innerHTML = info.innerHTML + "<br/>" + "Numero de enlaces del tercer párrafo = "+enlaces.length;
+  
 </script>
 
 </body>
