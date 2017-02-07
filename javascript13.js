@@ -116,6 +116,19 @@ function sin()
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 
 	}
+function log() {
+	      x=Math.log10(x).toFixed(3) //resolver raíz cuadrada.
+         pantalla.innerHTML=x; //mostrar en pantalla resultado
+         op="no"; //quitar operaciones pendientes.
+         xi=1; //se puede reiniciar la pantalla
+      }
+function ln() {
+	      x=Math.log(x).toFixed(3) //resolver raíz cuadrada.
+         pantalla.innerHTML=x; //mostrar en pantalla resultado
+         op="no"; //quitar operaciones pendientes.
+         xi=1; //se puede reiniciar la pantalla
+      }
+      
 function cos()
 	{
 	if (document.getElementById('grad').checked){ x=x*Math.PI/180;}
