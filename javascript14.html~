@@ -33,9 +33,9 @@ for (i = 0; i < x.length; i++) {
 }
 document.getElementById("testua3").innerHTML ="Esteka kopurua: " + zenbat;
 
-  var parrafos = document.getElementsByTagName("p");
-  enlaces = parrafos[2].getElementsByTagName("a");
-  info.innerHTML = info.innerHTML + "<br/>" + "Numero de enlaces del tercer párrafo = "+enlaces.length;
+var y= document.getElementsByTagName("p");
+document.getElementById("testua4").innerHTML ="Esteka kopurua: " + y[2].getElementsByTagName("a").length;
+
   
 </script>
 
