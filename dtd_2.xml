@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letrak [
+  <!ELEMENT letrak (letra+)>
+  <!ELEMENT letra (#PCDATA)>
+]>
+
+<letrak>
+  <letra>m</letra>
+  <letra>uve bikoitza</letra>
+</letrak>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mezua>
+  <nork> <izena>Aitor Etxeberria</izena>
+    <eposta>infaetxeberria@gmail.com</eposta>
+  </nork>
+  <nori> <izena>Miren Larreategi</izena>
+    <eposta>mirenl@gmail.com</eposta>
+  </nori>
+  <gaia>Kaixo miren</gaia>
+  <testua><paragrafoa>Kaixo zer moduz?</paragrafoa>
+  <paragrafoa>Aspaldi ez duzula idazten. Ea laster deitzen duzun eta horrela geratzen garen.</paragrafoa>
+  <paragrafoa>Ondo izan.</paragrafoa>
+  </testua>
+  </mezua>

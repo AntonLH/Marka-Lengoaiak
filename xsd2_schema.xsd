@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ibilgailuak">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ibilgailua" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ibilgailua" >
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="izena" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="modeloa" type="xs:string"/>
+        <xs:element ref="fabrikazioa"/>
+        <xs:element ref="moldaketak"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fabrikazioa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="hasi"/>
+        <xs:element ref="bukatu"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hasi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="urtea" type="xs:string"/>
+        <xs:element name="hilea" type="xs:string"/>
+        <xs:element name="eguna" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bukatu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="urtea" type="xs:string"/>
+        <xs:element name="hilea" type="xs:string"/>
+        <xs:element name="eguna" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="moldaketak">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="moldaketa" type="xs:string"   minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

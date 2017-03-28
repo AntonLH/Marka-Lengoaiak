@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbola [
+  <!ELEMENT futbola (jokalaria*)>
+  <!ELEMENT jokalaria EMPTY>
+  <!ATTLIST jokalaria izena CDATA #REQUIRED>
+  <!ATTLIST jokalaria kodea ID #REQUIRED>
+]>
+
+<futbola>
+  <jokalaria izena="Alfredo Di Stéfano" kodea="e1"/>
+  <jokalaria izena="Edson Arantes do Nascimento, Pelé" kodea="e2" />
+  <jokalaria izena="Diego Armando Maradona" kodea="e3" />
+  <jokalaria izena="Johan Cruyff" kodea="e4" />
+</futbola>

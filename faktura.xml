@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<faktura id="999">
+<goiburua>
+  <enpresa>
+    <izena>Sistema Digitalak Koop.</izena>
+    <helbidea>Berango Etorbidea</helbidea>
+    <herria>Berango</herria>
+    <postakodea>48640</postakodea>
+    <herrialdea>Bizkaia</herrialdea>  
+    <ifk> Z-9876543</ifk>
+    <telefonoa>94.444.55.66</telefonoa>
+    <fax>94.444.55.67</fax>
+  </enpresa>
+  <besteak>
+    <data>2015-01-12</data>
+    <zenbakia>731</zenbakia>
+    <mota>ESKUDIRUZKOA</mota>
+  </besteak>
+</goiburua>
+<bezeroa id="879">
+</bezeroa>
+<datuak>
+  <produktua>
+    <erref>BI9300F/8</erref>
+  </produktua>
+  <produktua>
+    <erref>BI8QDIP4</erref>
+  </produktua>
+  <produktua>
+    <erref>BDD512M32</erref>
+  </produktua>
+  <produktua>
+    <erref>HD250GSA7</erref>
+  </produktua>
+  <zergaoinarria>970 €</zergaoinarria>
+  <bez>16</bez>
+  <bezkuota>155,20 €</bezkuota>
+  <guztira> 1.125,20 €</guztira>
+</datuak>
+</faktura>

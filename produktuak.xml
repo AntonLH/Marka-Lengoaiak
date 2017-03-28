@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <erosketak>
+    <erosketa>
+      <erref>BI9300F/8</erref>
+      <deskribapena>Mikro Pentium IV 3000Mhz</deskribapena>
+      <kopurua>1</kopurua>
+      <salneurria>230 €</salneurria>
+      <bez>16</bez>
+      <zenbatekoa>266,80 €</zenbatekoa>
+    </erosketa>
+    <erosketa>
+      <erref>BI8QDIP4</erref>
+      <deskribapena>Plaka Nagusia QDI P4</deskribapena>
+      <kopurua>1</kopurua>
+      <salneurria>180  €</salneurria>
+      <bez>16</bez>
+      <zenbatekoa>208 €</zenbatekoa>
+    </erosketa>
+    <erosketa>
+      <erref>BDD512M32</erref>
+      <deskribapena>DIMM DDR 512MB 3200</deskribapena>
+      <kopurua>2</kopurua>
+      <salneurria>40€</salneurria>
+      <bez>16</bez>
+      <zenbatekoa>92,80 €</zenbatekoa>
+    </erosketa>
+    <erosketa>
+      <erref>HD250GSA7</erref>
+      <deskribapena>DISKA GOGORRA 250GB S-ATA 7200</deskribapena>
+      <kopurua>4</kopurua>
+      <salneurria>120 €</salneurria>
+      <bez>16</bez>
+      <zenbatekoa>556,80 €</zenbatekoa>
+    </erosketa>
+  </erosketak>

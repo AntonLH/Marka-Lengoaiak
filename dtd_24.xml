@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hegaldiak [
+  <!ELEMENT hegaldiak (hegaldia*)>
+  <!ELEMENT hegaldia ((abiapuntua|helmuga)+)>
+  <!ELEMENT abiapuntua (#PCDATA)>
+  <!ELEMENT helmuga (#PCDATA)>
+]>
+
+<hegaldiak>
+  <hegaldia>
+    <abiapuntua>Valencia (VLC)</abiapuntua>
+    <helmuga>Londres Heathrow (LHR)</helmuga>
+  </hegaldia>
+  <hegaldia>
+    <helmuga>Berlín Schönefeld (SFX)</helmuga>
+    <abiapuntua>Paris Charles de Gaulle (CDG)</abiapuntua>
+  </hegaldia>
+</hegaldiak>

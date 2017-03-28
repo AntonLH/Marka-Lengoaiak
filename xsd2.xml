@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ibilgailuak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/antonlarrazabal/Marka-lengoaiak/xsd2_schema.xsd"> 
+    <ibilgailua> 
+        <izena>Count Zero</izena> 
+        <modeloa>Series I, 80"</modeloa> 
+        <fabrikazioa> 
+            <hasi> 
+                <urtea>1949</urtea>
+                <hilea>Uztaila</hilea> 
+                <eguna>21</eguna>
+            </hasi> 
+            <bukatu>
+                 <urtea>1949</urtea>  
+                <hilea>Abuztua</hilea> 
+                <eguna>9</eguna> 
+            </bukatu> 
+        </fabrikazioa> 
+        <moldaketak> 
+            <moldaketa>Change Engine</moldaketa> 
+            <moldaketa>Change pedals</moldaketa> 
+            <moldaketa>Change gearbox</moldaketa> 
+            <moldaketa>Fit Rollcage</moldaketa> 
+        </moldaketak> 
+    </ibilgailua> 
+</ibilgailuak>

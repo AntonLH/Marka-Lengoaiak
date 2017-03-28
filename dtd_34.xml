@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ErosketaZerrenda [
+  <!ELEMENT ErosketaZerrenda (item*)>
+  <!ELEMENT item EMPTY>
+  <!ATTLIST item izena CDATA #REQUIRED>
+  <!ATTLIST item kopurua CDATA #REQUIRED>
+]>
+
+<ErosketaZerrenda>
+  <item izena="esnea" kopurua="12 litro"/>
+  <item izena="ogia" kopurua="laurdeneko 3 barra" />
+</ErosketaZerrenda>

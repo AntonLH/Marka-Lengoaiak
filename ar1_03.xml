@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testua>
+  <titulua>XML umeentzako azaldua</titulua>
+  <paragrafoa><laburdura>XML</laburdura>-ak marka lenguaiak nola sortu 
+  definitzen du.</paragrafoa>
+  <paragrafoa>Marka testu dokumentu bati gahitzen zaie 
+  informazioa gehitzeko asmoarekin.</paragrafoa>
+  &lt;http://&gt;www.example.org&lt;/http://&gt;
+</testua>

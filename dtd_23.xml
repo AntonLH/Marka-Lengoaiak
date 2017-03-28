@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeroportuak [
+  <!ELEMENT aeroportuak (aeroportua*)>
+  <!ELEMENT aeroportua (izena, itxita?)>
+  <!ELEMENT izena (#PCDATA)>
+  <!ELEMENT itxita (#PCDATA)>
+]>
+
+<aeroportuak>
+  <aeroportua>
+    <izena>Berlín Schönefeld (SFX)</izena>
+  </aeroportua>
+  <aeroportua>
+    <izena>Berlín Tempelhof (THF)</izena>
+    <itxita />
+ </aeroportua>
+</aeroportuak>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Asmatzaileak [
+  <!ELEMENT Asmatzaileak (asmatzailea*)>
+  <!ELEMENT asmatzailea EMPTY>
+  <!ATTLIST asmatzailea asmakizuna CDATA #REQUIRED>
+  <!ATTLIST asmatzailea izena CDATA #IMPLIED>
+]>
+
+<Asmatzaileak>
+  <asmatzailea izena="Robert Adler" asmakizuna="Urrutiko Mandoa" />
+  <asmatzailea izena="Laszlo Josef Biro" asmakizuna="Boligrafoa" />
+  <asmatzailea izena="Josephine Garis Cochran" asmakizuna="Plater garbitzailea" />
+  <asmatzailea asmakizuna="Sua" />
+</Asmatzaileak>

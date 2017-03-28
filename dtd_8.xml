@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+  <!ELEMENT agenda (kontaktua*)>
+  <!ELEMENT kontaktua (izena,(telFinkoa|telMugikorra)*)>
+  <!ELEMENT izena (#PCDATA)>
+  <!ELEMENT telFinkoa (#PCDATA)>
+  <!ELEMENT telMugikorra (#PCDATA)>
+]>
+
+<agenda>
+  <kontaktua>
+    <izena>Udaletxea</izena>
+    <telFinkoa>010</telFinkoa>
+  </kontaktua>
+  <kontaktua>
+    <izena>Larrialdiak</izena>
+    <telFinkoa>112 (Europar Batasuna)</telFinkoa>
+    <telMugikorra>Ezezaguna</telMugikorra>
+    <telFinkoa>911 (Estatu Batuak)</telFinkoa>
+  </kontaktua>
+</agenda>

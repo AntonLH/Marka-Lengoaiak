@@ -1,0 +1,12 @@
+a) Zer esan nahi dute <xs:schema>-ren atributuak diren xmlns:xs eta elementDormDefault atributuen balioak?
+
+xmlns:xs URI erreferentzia bat da, eskeman erabili beharreko izen-leku bat edo gehiago adierazten dituena
+elementDormDefault elementuen izenen formatua eskemaren izen-lekuan. unqualified edo qualified izan daiteke, xs: aurrizkia duen arabera.
+
+b) Begiratu eta aztertu xmlns:xs izen lekuaren estekaren edukia. Zer adierazten du?
+
+eskeman erabili beharko den izen-lekua adierazten du.
+
+c) Zergaitik oharra elementuak, complexType eta sequence etiketak derigorrezkoak ditugu baliogarria izateko?
+
+Beharrezkoak direlako schema estrukturatzeko.

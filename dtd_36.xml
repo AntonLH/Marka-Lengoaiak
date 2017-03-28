@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbola [
+  <!ELEMENT futbola ((jokalaria|taldea)*)>
+  <!ELEMENT jokalaria EMPTY>
+  <!ATTLIST jokalaria izena CDATA #REQUIRED>
+  <!ATTLIST jokalaria kodea ID #REQUIRED>
+  <!ELEMENT taldea EMPTY>
+  <!ATTLIST taldea izena CDATA #REQUIRED>
+  <!ATTLIST taldea jokalariak CDATA #IMPLIED>
+]>
+
+<futbola>
+  <jokalaria izena="Alfredo Di Stéfano" kodea="ads"/>
+  <jokalaria izena="Edison Arantes do Nascimento" kodea="ean" />
+  <jokalaria izena="Diego Armando Maradona" kodea="dam" />
+  <jokalaria izena="Johan Cruyff" kodea="jc" />
+  <taldea izena="Società Sportiva Calcio Napoli" jokalariak="Maradona" />
+  <taldea izena="Futbol Club Barcelona" jokalariak="Cruyff, Maradona" />
+</futbola>

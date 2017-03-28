@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<karta>
+<produktua><izena> Gofre Belgak</izena>
+ <salneurria> 7.95  </salneurria>
+ <deskribapena>Gure Gofre ospetsuetako bi siropearekin lagunduta.</deskribapena>
+ <kaloriak>650</kaloriak>
+</produktua>
+<produktua><izena>  Gofre Belgak marrubiekin</izena>
+ <salneurria>8.95 </salneurria>
+ <deskribapena> Belgikako Gofre arinak, marrubi  eta esne-gain harrotuarekin lagunduta. </deskribapena>
+ <kaloriak>900</kaloriak>
+</produktua>
+<produktua><izena>  Gofre Belgak basoko frutuekin</izena>
+ <salneurria>5.95 </salneurria>
+ <deskribapena> Basoko fruituek eta esne-gain harrotuak estalitako Belgikako Gofre arinak.</deskribapena>
+ <kaloriak>900</kaloriak>
+</produktua>
+<produktua><izena>  Baserriko ogi txigortua</izena>
+ <salneurria>4.50 </salneurria>
+ <deskribapena> Txigortutako, baserriko bi ogi-xerra lodi.</deskribapena>
+ <kaloriak>600</kaloriak>
+</produktua>
+<produktua><izena>   Etxeko gozaria</izena>
+ <salneurria>	 6.95 </salneurria>
+ <deskribapena>  Bi arrautza frijitu, hirugiharra edo txistorra, ogi txigortua eta patata frijituak.</deskribapena>
+ <kaloriak>950</kaloriak>
+</produktua>
+  </karta>

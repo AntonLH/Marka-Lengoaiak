@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE koloreak [
+  <!ELEMENT koloreak (kolorea*)>
+  <!ELEMENT kolorea (SvgIzena, kodea)>
+  <!ELEMENT SvgIzena (#PCDATA)>
+  <!ELEMENT kodea ((rgb|cmyk))>
+  <!ELEMENT rgb (#PCDATA)>
+  <!ELEMENT cmyk (#PCDATA)>
+]>
+
+<koloreak>
+  <kolorea>
+    <SvgIzena>Purple</SvgIzena>
+    <kodea>
+      <rgb>#800080</rgb>
+    </kodea>
+  </kolorea>
+  <kolorea>
+    <SvgIzena>Purple</SvgIzena>
+    <kodea>
+      <cmyk>#00FF007F</cmyk>
+    </kodea>
+  </kolorea>
+</koloreak>

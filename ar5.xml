@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<zuhaitzak>
+<zuhaitza>
+ <izena> Acer monspessulanum</izena>
+ <izen_arrunta>Montpellierreko Astigarra, astigar txikia.</izen_arrunta>
+ <mota>Hosto Erorkorra</mota>
+ <altuera>6 m-tik  10 m-ra.</altuera>
+ <itxura>Adaburu esferikoa. Enbor nagusi zuzena adarkatzeekin. Adakera  zintzilikaria.</itxura>
+ <kolorea>Gainazala  brillante berdea, alderantzi berde zurixka</kolorea>
+ <erresistentzia>Izozte handiak ( -15ºC arte)</erresistentzia>
+</zuhaitza>
+<zuhaitza><izena>  Olea europea</izena>
+ <izen_arrunta>Olibondoa</izen_arrunta>
+ <mota>Hosto Iraunkorra</mota>
+ <altuera>8 m-tik 15 m-ra.</altuera>
+ <itxura>Adaburu irregularra. Enbor nagusi irregularra adarkatzeekin. Adakera bihurria.</itxura>
+ <kolorea>Gainazal berde iluna, alderantzi berde zilarreztatuta.</kolorea>
+ <erresistentzia>Izozte ertainak (-10ºC arte)</erresistentzia>
+</zuhaitza>
+<zuhaitza><izena>  Platanus orientalis</izena>
+ <izen_arrunta>Montpellierreko Astigarra, astigar txikia.</izen_arrunta>
+ <mota>Hosto Iraunkorra</mota>
+ <altuera>20tik 25m-tara.</altuera>
+ <itxura>Adaburu  ovoidal-a. Enbor nagusi zuzena. Adakara zabaldua.</itxura>
+ <kolorea>Gainazal berde ertaina, alderantzi berde argia</kolorea>
+ <kolorea_udazkenean>Okrea</kolorea_udazkenean>
+ <erresistentzia>Izozte handiak ( -20ºC arte)</erresistentzia>
+</zuhaitza>
+<zuhaitza><izena>  Quercus ilex</izena>
+ <izen_arrunta>Montpellierreko Astigarra, astigar txikia.</izen_arrunta>
+ <mota>Hosto Erorkorra</mota>
+ <altuera>25 m inguru.</altuera>
+ <itxura>Adaburu esferiko edo eliptiko irregularra. Enbor nagusi zuzena. Adakera bihurria.</itxura>
+ <kolorea>Zilarreztatua hosto gazteetan. Hosto zaharretan, gainazal berde iluna, alderantzi zilarreztatua.</kolorea>
+ <erresistentzia>Izozte handiak ( -15ºC arte)</erresistentzia>
+</zuhaitza>
+</zuhaitzak>

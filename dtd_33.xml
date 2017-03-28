@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE margoak [
+  <!ELEMENT margoak (margoa*)>
+  <!ELEMENT margoa EMPTY>
+  <!ATTLIST margoa titulua CDATA #REQUIRED>
+  <!ATTLIST margoa egilea CDATA #REQUIRED>
+]>
+
+<margoak>
+  <margoa titulua="Adan eta Eba" egilea="Alberto Durero" />
+  <margoa egilea="Lucas Cranach, agurea" titulua="Adan eta Eba" />
+</margoak>

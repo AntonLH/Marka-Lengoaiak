@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelikula [
+  <!ELEMENT pelikula EMPTY>
+  <!ATTLIST pelikula titulua CDATA #IMPLIED>
+  <!ATTLIST pelikula generoa CDATA #IMPLIED>
+]>
+
+<pelikula titulua="Diligentzia" generoa="Mendebaldekoa" />

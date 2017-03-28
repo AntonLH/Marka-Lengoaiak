@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mezuak [
+<!ELEMENT mezuak (mezua+)>
+<!ELEMENT mezua (nork, nori, ordua, testua)>
+<!ELEMENT nork (#PCDATA)>
+<!ELEMENT nori (#PCDATA)>
+<!ELEMENT ordua (#PCDATA)>
+<!ELEMENT testua ANY>
+<!ELEMENT strong (#PCDATA)>
+]>
+
+<mezuak>
+  <mezua>
+    <nork>Peru (peru@adibide.com)</nork>
+    <nori>Iker (iker@adibide.com)</nori>
+    <ordua>2013/02/22 17:48:23,61</ordua>
+    <testua>Kaixo, Iker, nola zaude?</testua>
+  </mezua>
+  <mezua>
+    <nork>Iker (iker@adibide.com)</nork>
+    <nori>Pepu (peru@adibide.com)</nori>
+    <ordua>2013/02/28 17:54:20,87</ordua>
+    <testua>Hemen, ikasten <strong>XML</strong></testua>
+  </mezua>
+</mezuak>

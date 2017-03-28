@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="pertsona" type="PertsonaMota"></xs:element>
+<xs:element name="datuak" type="info"></xs:element>
+  <xs:complexType name="info">
+      <xs:sequence>
+        <xs:element name="izena" type="xs:string"/>
+        <xs:element name="abizenak" type="xs:string"/>
+        <xs:element name="nan" type="xs:string"/>
+        <xs:element name="info" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+
+  <xs:complexType name="PertsonaMota">
+      <xs:sequence>
+        <xs:element ref="datuak"/>
+        <xs:element name="PertsonaMota" type="xs:string"/>
+        <xs:element name="iradokizuna" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="jaiotzeData" type="xs:date" use="required"/>
+  </xs:complexType>
+</xs:schema>

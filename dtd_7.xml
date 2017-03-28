@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musikoak [
+  <!ELEMENT musikoak (musikoa*)>
+  <!ELEMENT musikoa (izena,ezizena?, jaiotzeData)>
+  <!ELEMENT izena (#PCDATA)>
+  <!ELEMENT ezizena (#PCDATA)>
+  <!ELEMENT jaiotzeData (#PCDATA)>
+]>
+
+<musikoak>
+  <musikoa>
+    <izena>Antonio Vivaldi</izena>
+    <ezizena>Abade hilegorria</ezizena>
+    <jaiotzeData>1678ko martxoaren 4ean</jaiotzeData>
+  </musikoa>
+  <musikoa>
+    <izena>Johann Sebastian Bach</izena>
+    <ezizena>El viejo peluca</ezizena>
+    <jaiotzeData>1685ko martxoaren 21ean</jaiotzeData>
+  </musikoa>
+</musikoak>

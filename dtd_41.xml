@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liburua [
+  <!ELEMENT liburua EMPTY>
+  <!ATTLIST liburua egilea NMTOKEN #REQUIRED>
+]>
+
+<liburua egilea="Sarrionaindia" />

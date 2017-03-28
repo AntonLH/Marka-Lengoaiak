@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pertsona [
+  <!ELEMENT pertsona EMPTY>
+  <!ATTLIST pertsona nan CDATA #IMPLIED>
+]>
+
+<pertsona nan="03141592E" />

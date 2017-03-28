@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE erregeak [
+  <!ELEMENT erregeak ((erregea|erregina)*)>
+  <!ELEMENT erregea (izena, aita, ama)>
+  <!ELEMENT erregina (izena, aita, ama)>
+  <!ELEMENT izena (#PCDATA)>
+  <!ELEMENT aita (#PCDATA)>
+  <!ELEMENT ama (#PCDATA)>
+]>
+
+<erregeak>
+  <erregea>
+    <izena>Felipe III</izena>
+    <aita>Felipe II</aita>
+    <ama>Ana de Austria</ama>
+  </erregea>
+  <erregina>
+    <izena>Juana la Loca</izena>
+    <aita>Fernando el Católico</aita>
+    <ama>Isabel la Católica</ama>
+  </erregina>
+  <erregea>
+    <izena>Carlos I</izena>
+    <aita>Felipe el Hermoso</aita>
+    <ama>Juan la Loca</ama>
+  </erregea>
+</erregeak>

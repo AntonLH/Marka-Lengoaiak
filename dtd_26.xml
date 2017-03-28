@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE herrialdeak [
+  <!ELEMENT herrialdeak (herrialdea*)>
+  <!ELEMENT herrialdea (izena, EuroparBatasuna?, otan?)>
+  <!ELEMENT izena (#PCDATA)>
+  <!ELEMENT EuroparBatasuna EMPTY>
+  <!ELEMENT otan EMPTY>
+]>
+
+<herrialdeak>
+  <herrialdea>
+    <izena>Espainia</izena>
+    <EuroparBatasuna />
+    <otan />
+  </herrialdea>
+  <herrialdea>
+    <izena>Norbegia</izena>
+    <otan />
+  </herrialdea>
+  <herrialdea>
+    <izena>Austria</izena>
+    <EuroparBatasuna />
+  </herrialdea>
+</herrialdeak>

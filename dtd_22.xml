@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE efemerideak [
+  <!ELEMENT efemerideak (efemeridea*)>
+  <!ELEMENT efemeridea (data, gertaera)>
+  <!ELEMENT data (#PCDATA)>
+  <!ELEMENT gertaera (#PCDATA)>
+]>
+
+<efemerideak>
+  <efemeridea>
+    <data>1969ko uztailaren 20an</data>
+    <gertaera>Gizakiak zapaltzen du Hilargia</gertaera>
+  </efemeridea>
+  <efemeridea>
+    <data>1492 urriaren 12an</data>
+    <gertaera>Colon Amerikara heldu zen</gertaera>
+  </efemeridea>
+  <efemeridea>
+    <data>1909ko apirilaren 6an</data>
+   <gertaera>Robert Peary Ipar Polora heldu zen</gertaera>
+  </efemeridea>
+</efemerideak>

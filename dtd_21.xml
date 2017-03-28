@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gogokoenak [
+  <!ELEMENT gogokoenak (esteka+)>
+  <!ELEMENT esteka (izena, uri)>
+  <!ELEMENT izena (#PCDATA)>
+  <!ELEMENT uri (#PCDATA)>
+]>
+
+<gogokoenak>
+  <esteka>
+    <izena>W3C</izena>
+    <uri>http://www.w3.org/</uri>
+  </esteka>
+  <esteka>
+    <izena>Web Hypertext Application Technology Working Group (WHATWG)</izena>
+    <uri>http://www.whatwg.org/</uri>
+  </esteka>
+</gogokoenak>

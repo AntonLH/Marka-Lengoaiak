@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kontabilitatea [
+  <!ELEMENT kontabilitatea (apuntea*)>
+  <!ELEMENT apuntea ((sarrera | gastua), data, kopurua, kontzeptua)>
+  <!ELEMENT sarrera EMPTY>
+  <!ELEMENT gastua EMPTY>
+  <!ELEMENT data (#PCDATA)>
+  <!ELEMENT kopurua (#PCDATA)>
+  <!ELEMENT kontzeptua (#PCDATA)>
+]>
+
+<kontabilitatea>
+  <apuntea>
+    <sarrera />
+    <data>24 de febrero de 2011</data>
+    <kopurua>1800,00 €</kopurua>
+    <kontzeptua>Soldata</kontzeptua>
+  </apuntea>
+  <apuntea>
+    <gastua />
+    <data>28 de febrero de 2011</data>
+    <kopurua>74,25 €</kopurua>
+    <kontzeptua>Argia</kontzeptua>
+  </apuntea>
+</kontabilitatea>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liburutegia[
+<!ELEMENT liburutegia (liburua+)>
+<!ELEMENT liburua (titulua,egilea+,argitaletxea,argitalpenekodata)>
+<!ELEMENT titulua (#PCDATA)>
+<!ELEMENT egilea (#PCDATA)>
+<!ELEMENT argitaletxea (#PCDATA)>
+<!ELEMENT argitalpenekodata (#PCDATA)>
+<!ELEMENT eskaintza (#PCDATA)> 
+<!ELEMENT galkor (fabrikazio?,iraungitzeData?)> 
+<!ELEMENT fabrikazio (#PCDATA)>
+<!ELEMENT iraungitzeData (#PCDATA)>
+<!ATTLIST liburua nick CDATA #REQUIRED>
+<!ATTLIST egilea id CDATA #IMPLIED>
+<!ATTLIST egilea idref CDATA #IMPLIED>
+<!ATTLIST argitaletxea id CDATA #IMPLIED>
+<!ATTLIST argitaletxea idref CDATA #IMPLIED>
+
+]>
+<liburutegia>
+  <liburua nick="sole tura">
+  <titulua>Constituciones y períodos constituyentes de España</titulua>    
+    <egilea id="tura">Solé Tura</egilea>
+    <argitaletxea id="grigalbo">Grigalbo</argitaletxea>
+    <argitalpenekodata>01-04-1980</argitalpenekodata>
+  </liburua>
+  
+  <liburua nick="la pepa">
+  <titulua>La incleible historia de Pepe Bayo</titulua>    
+    <egilea idref="tura"/>
+    <egilea id="garcía">Antonio García Fernández</egilea>
+    <argitaletxea idref="grigalbo"/>
+    <argitalpenekodata>21-10-1990</argitalpenekodata>
+  </liburua>
+  
+  <liburua nick="condemor">
+    <titulua>Aquí llega Condemor, el pecador de la pradera</titulua>    
+    <egilea id="chiquito">Gregorio Sánchez Fernández</egilea>
+    <argitaletxea>Anaya</argitaletxea>
+    <argitalpenekodata>01-05-1996</argitalpenekodata>
+  </liburua>
+
+</liburutegia>

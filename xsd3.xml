@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pertsona jaiotzeData="1999-10-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/antonlarrazabal/Marka-lengoaiak/xsd3_schema.xsd"> 
+    <datuak> 
+        <izena>Pepe</izena> 
+        <abizenak>Garcia</abizenak> 
+        <nan>25390952</nan> 
+        <info>informazioa</info>
+
+    </datuak> 
+    <PertsonaMota>pertsona mota</PertsonaMota>
+    <iradokizuna>suerte on peña...</iradokizuna> 
+</pertsona> 

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE supermerkatua[
+<!ELEMENT supermerkatua (artikulua+)>
+<!ELEMENT artikulua (deskripzioa,marka?,neurria,sekzioa,eskaintza*, galkor?)>
+<!ELEMENT deskripzioa (#PCDATA)>
+<!ELEMENT marka (#PCDATA)>
+<!ELEMENT neurria (#PCDATA)>
+<!ELEMENT sekzioa (#PCDATA)>
+<!ELEMENT eskaintza (#PCDATA)> 
+<!ELEMENT galkor (fabrikazio?,iraungitzeData?)> 
+<!ELEMENT fabrikazio (#PCDATA)>
+<!ELEMENT iraungitzeData (#PCDATA)>
+<!ATTLIST artikulua id CDATA #REQUIRED>
+<!ATTLIST neurria unitatea CDATA #IMPLIED>
+
+]>
+<supermerkatua>
+  <artikulua id="artikulu1">
+    <deskripzioa>Esne gaingabetua</deskripzioa>
+    <marka>Kaiku</marka>
+    <neurria unitatea="BAI">1 L</neurria>
+    <sekzioa>Esnekiak</sekzioa>
+  </artikulua>
+  <artikulua id="artikulu2">
+    <deskripzioa>Esne osoa</deskripzioa>
+    <marka>EHko Esnea</marka>
+    <neurria>1,5 L</neurria>
+    <sekzioa>Esnekiak</sekzioa>
+    <eskaintza>Deskontu sorta</eskaintza>
+    <eskaintza>Bi erosi bat ordaindu</eskaintza>
+    <galkor>
+         <fabrikazio>2014ko Urtarrila</fabrikazio>
+    </galkor>
+  </artikulua>
+  <artikulua id="artikulu3">
+    <deskripzioa>Tomatea</deskripzioa>
+    <neurria unitatea="BAI">1 Kg</neurria>
+    <sekzioa>Frutak eta barazkiak</sekzioa>
+    <galkor>
+        <iraungitzeData>Otsaila2014</iraungitzeData>
+    </galkor>   
+  </artikulua>
+</supermerkatua>
+

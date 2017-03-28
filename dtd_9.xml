@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EguzkiSistema [
+  <!ELEMENT EguzkiSistema (gorputza*)>
+  <!ELEMENT gorputza ((planeta|satelitea|asteroidea)+)>
+  <!ELEMENT planeta (#PCDATA)>
+  <!ELEMENT satelitea (#PCDATA)>
+  <!ELEMENT asteroidea (#PCDATA)>
+]>
+
+<EguzkiSistema>
+  <gorputza>
+    <planeta>Lurra</planeta>
+    <satelitea>Hilargia</satelitea>
+  </gorputza>
+  <gorputza>
+    <asteroidea>Ceres</asteroidea>
+  </gorputza>
+</EguzkiSistema>

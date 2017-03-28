@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE koloreak [
+  <!ELEMENT koloreak (kolorea*)>
+  <!ELEMENT kolorea (#PCDATA)>
+]>
+
+<koloreak>
+  <kolorea>urdin iluna</kolorea>
+  <kolorea>beltza</kolorea>
+  <kolorea>horia</kolorea>
+</koloreak>
